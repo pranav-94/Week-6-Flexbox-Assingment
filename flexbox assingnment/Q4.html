@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            flex-wrap: wrap;
+            height:800px;
+        }
+        #flex{
+            width: 90%;
+            display: flex;
+        }
+        #item1{
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1{
+            font-size: 55px;
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        p{
+            font-size: 23px;
+        }
+        #subitem{
+            display: flex;
+            margin-top: 40px;
+            align-items: center;
+        }
+        button{
+            cursor: pointer;
+        }
+        li{
+            list-style: none;
+            font-size: 20px;
+            color: #1a73e8;
+            cursor: pointer;
+        }
+        .b{
+            border: none;
+            border-radius: 5px;
+            background-color: #1a73e8;
+            font-size: 20px;
+            color: white;
+            width: 200px;
+            height: 50px;
+        }
+        #b1{
+            border: none;
+            border-radius: 5px;
+            background-color: #ffffff;
+            font-size: 20px;
+            color:#1a73e8;
+            width: 120px;
+            height: 50px;
+            border: 1px solid #b8b8b8;
+            margin-left: 50px;
+        }
+        #navbar{
+            width: 90%;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #b8b8b8;
+        }
+        #one{
+            flex-grow: 1;
+            cursor: pointer;
+        }
+        #badaflex{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        #badanavbar{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top:0px;
+            z-index: 5;
+            background-color: #fafafa;
+        }
+        span{
+            font-size: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #img{
+            margin-right: 10px;
+        }
+        #b2{
+            margin-left: 20px;
+        }
+        #last{
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="badanavbar">
+    <div id="navbar">
+        <div id="one">
+        <img id="img" src="https://image.similarpng.com/very-thumbnail/2020/12/Gmail-logo-design-on-transparent-background-PNG.png" width="40px" height="30px" alt="">
+        <span>Gmail</span>
+    </div>
+        <li>For work</li>
+        <button id="b1">Sign in</button>
+        <button id="b2" class="b">Create an account</button>
+    </div>
+    </div>
+    <div id="badaflex">
+    <div id="flex">
+        <div id="item1">
+        <h1>Secure,smart and easy to use email</h1><br><br>
+        <p>Get more done with Gmail. Now integrated with Google Chat, Google meet and more, all in one place.</p>
+       <div id="subitem">
+    <button class="b">Create an account</button>
+        <li id="last">For work</li>
+    </div> 
+    </div>
+    <div id="item2">
+        <img src="https://lh3.googleusercontent.com/PWXM4hp9lRRezHTV86SqLwhRQMz4_Lk08jll3GkWBvBZy_Uk6kvUvwIrVilwaIW2mHZJoccchG6o9a5UdOJEwQPf9oJGmOGSglo3VW0=rw-e365-w2880" width="600px" height="450px" alt="">
+    </div>
+    </div>
+</div>
+</body>
+</html>
